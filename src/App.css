@@ -26,19 +26,38 @@
   cursor: pointer;
 }
 .app__bg {
+   /* ff 3.6+ */
+   background:-moz-radial-gradient(circle at 30% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-/* ff 3.6+ */
-background:-moz-radial-gradient(circle at 12% 12%, rgba(0, 40, 83, 1) 6%, rgba(4, 12, 24, 1) 63%, rgba(4, 12, 24, 1) 100%);
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 30% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-/* safari 5.1+,chrome 10+ */
-background:-webkit-radial-gradient(circle at 12% 12%, rgba(0, 40, 83, 1) 6%, rgba(4, 12, 24, 1) 63%, rgba(4, 12, 24, 1) 100%);
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 30% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-/* opera 11.10+ */
-background:-o-radial-gradient(circle at 12% 12%, rgba(0, 40, 83, 1) 6%, rgba(4, 12, 24, 1) 63%, rgba(4, 12, 24, 1) 100%);
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 30% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-/* ie 10+ */
-background:-ms-radial-gradient(circle at 12% 12%, rgba(0, 40, 83, 1) 6%, rgba(4, 12, 24, 1) 63%, rgba(4, 12, 24, 1) 100%);
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 30% 30%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-/* global 92%+ browsers support */
-background:radial-gradient(circle at 12% 12%, rgba(0, 40, 83, 1) 6%, rgba(4, 12, 24, 1) 63%, rgba(4, 12, 24, 1) 100%);
+}
+.app__bg2 {
+ 
+    /* ff 3.6+ */
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
+
 }

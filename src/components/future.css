@@ -1,0 +1,64 @@
+.app__future-container {
+    height: 100vh;
+    padding: 6rem 8rem;
+
+}
+.app__future-container-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.app__future-box1 {
+    width: 40%;
+    height: 100%;
+}
+.app__future-box2 {
+    width: 30%;
+    height: 100%;
+}
+.app__future-box3 {
+    width: 30%;
+    height: 100%;
+}
+.app__future-box1 h1 {
+    width: 426px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.app__future-box1 p {
+    margin-top: 2rem;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+} 
+.app__future-box2-box {
+    margin-bottom: 4rem;
+}
+.app__future-box3-p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #81AFDD;
+    margin-bottom: 3rem;
+}
+.app__future-box3-p-last {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #81AFDD;
+}

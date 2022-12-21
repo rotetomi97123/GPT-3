@@ -5,7 +5,7 @@ import { ai, people} from '../assets'
 
 const hero = () => {
   return (
-    <div className='app__hero-container'>
+    <div className='app__hero-container' id='home'>
       <div className='app__hero-left'>
         <h1 className='app__hero-title h__manrope'>
           Let’s Build Something

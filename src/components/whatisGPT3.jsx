@@ -4,7 +4,7 @@ import { Button } from '../components'
 
 const whatisGPT3 = () => {
   return (
-    <div className='app__gpt-container'>
+    <div className='app__gpt-container' id='whatisgpt3'>
         <div className='app__gpt-container-box'>
           <div className='app__gpt-container-box1-3'>
             <Button title="What is GPT-3" />

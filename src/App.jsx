@@ -19,12 +19,12 @@ function App() {
       <Hero />
       <Companies />
       <WhatisGPT3 />
+      <Future />
       <Blogging />
       <Footer />
-      <Future />
       <Possibilities />
       <Register />
-    </div>
+      </div>
   )
 }
 

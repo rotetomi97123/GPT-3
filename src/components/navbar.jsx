@@ -12,19 +12,19 @@ const navbar = () => {
         <h2 className='h__manrope app__nav-gpt'>GPT-3</h2>
         <ul className='p__opensans'>
           <li>
-            <p>Home</p>
+            <a href='#home'>Home</a>
           </li>
           <li>
-            <p>What is GPT?</p>
+            <a href='#whatisgpt3'>What is GPT3?</a>
           </li>
           <li>
-            <p>Open Ai</p>
+            <a href='#openAi'>Open Ai</a>
           </li>
           <li>
-            <p>Case Studies</p>
+            <a href='#caseStudies'>Case Studies</a>
           </li>
           <li>
-            <p>Libary</p>
+            <a href='#libary'>Libary</a>
           </li>
         </ul>
         </div>
@@ -38,21 +38,21 @@ const navbar = () => {
       </div>
       {active &&<div className='app__nav-mobile scale-in-center'>
         <ul className='p__opensans'>
-            <li>
-              <p>Home</p>
-            </li>
-            <li>
-              <p>What is GPT?</p>
-            </li>
-            <li>
-              <p>Open Ai</p>
-            </li>
-            <li>
-              <p>Case Studies</p>
-            </li>
-            <li>
-              <p>Libary</p>
-            </li>
+        <li>
+            <a href='#home'>Home</a>
+          </li>
+          <li>
+            <a href='#whatisgpt3'>What is GPT3?</a>
+          </li>
+          <li>
+            <a href='#openAi'>Open Ai</a>
+          </li>
+          <li>
+            <a href='#caseStudies'>Case Studies</a>
+          </li>
+          <li>
+            <a href='#libary'>Libary</a>
+          </li>
             <li>
               <h4 className='app__nav-mobil-text'>Sign in</h4>
             </li>
