@@ -10,6 +10,10 @@ const future = () => {
           <h1>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
           <p>Request Early Access to Get Started</p>
         </div>
+
+        <span className='app__future-box-2-3'>
+
+        
         <div className='app__future-box2'>
             <div className='app__future-box2-box'>
              <Button title="Improving end distrusts instantly" />
@@ -38,6 +42,7 @@ const future = () => {
             <p className='app__future-box3-p-last'>Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.</p>
           </div>
         </div>
+        </span>
       </div>
     </div>
   )

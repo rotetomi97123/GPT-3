@@ -1,7 +1,6 @@
 .app__future-container {
     height: 100vh;
-    padding: 6rem 8rem;
-
+    padding: 10rem 10rem;
 }
 .app__future-container-box {
     width: 100%;
@@ -41,7 +40,12 @@
     font-size: 16px;
     line-height: 30px;
     color: #FF8A71;
+    cursor: pointer;
+    width: 280px;
 } 
+.app__future-box1 p:hover {
+    opacity: 70%;
+}
 .app__future-box2-box {
     margin-bottom: 4rem;
 }
@@ -61,4 +65,63 @@
     font-size: 14px;
     line-height: 24px;
     color: #81AFDD;
+}
+.app__future-box-2-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1200px) {
+    .app__future-container-box {
+        flex-direction: column;
+    }
+    .app__future-box-2-3 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+    }
+    .app__future-box1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .app__future-container {
+        height: 120vh;
+        padding: 4rem 6rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .app__future-box1 {
+        flex-direction: column;
+    }
+    .app__future-container {
+        height: 100%;
+        padding: 4rem 4em;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .app__future-box1 h1 {
+        max-width: 350px;
+    }
+    .app__future-box-2-3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .app__future-box2 {
+        width: 100%;
+    }
+    .app__future-box3 {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    .app__future-box2-box {
+        margin-bottom: 2rem;
+    }
+    .app__future-container {
+        padding: 2rem 2rem;
+    }
 }

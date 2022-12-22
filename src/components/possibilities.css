@@ -1,0 +1,86 @@
+.app__possi-container {
+    width: 100%;
+    height: 100vh;
+    padding: 0rem 10rem;
+}
+.app__possi-container-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.app__possi-container-box-img {
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+.app__possi-container-box-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5rem;
+}
+.app__possi-container-box-right p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    width: 280;
+}
+.app__possi-container-box-right p:hover {
+    opacity: 70%;
+}
+.app__possi-container-box-right h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2rem;
+}
+.app__possi-container-box-right h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+    max-width:479px;
+}
+
+@media screen and (max-width:1600px) {
+    .app__possi-container-box-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__possi-container {
+        padding: 0 4rem;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .app__possi-container-box {
+        flex-direction: column;
+    }
+    .app__possi-container-box-img {
+        width: 100%;
+    }
+    .app__possi-container-box-right {
+        width: 100%;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .app__possi-container {
+        padding: 0rem 2rem;
+        height: 100%;
+    }
+}

@@ -20,10 +20,10 @@ function App() {
       <Companies />
       <WhatisGPT3 />
       <Future />
-      <Blogging />
-      <Footer />
       <Possibilities />
       <Register />
+      <Blogging />
+      <Footer />
       </div>
   )
 }
