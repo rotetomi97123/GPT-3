@@ -73,7 +73,8 @@
 .app__nav-mobile {
     width: 240px;
     height: 300px;
-    background:#002853;
+    background:#003d7df9;
+    /* #002853 */
     position: absolute;
     right: 6rem;
     top: 7rem;
@@ -82,7 +83,10 @@
     justify-content: center;
     align-items: center;
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.528);
+    border: transparent;
+}
+.false {
+
 }
 .app__nav-mobile ul li {
     margin-bottom: 1rem;
@@ -104,9 +108,92 @@
     width: 67px;
     text-align: center;
 }
+.scale-out-center {
+	-webkit-animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
 .scale-in-center {
 	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-out-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-out-center {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+  }
+  
+/* HAMBURGER MENU */
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    margin-left: 2rem;
+    display: none;
+}
+.menu-btn:hover {
+    opacity: 70%;
+}
+.menu-btn__burger {
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47, .2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger:before,
+.menu-btn__burger:after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47, .2);
+    transition: all .5s ease-in-out;
+}
+.menu-btn__burger:before {
+    transform: translateY(-16px);
+}
+.menu-btn__burger:after {
+    transform: translateY(16px)
+}
+/* HAMBURGER ANIMATION */
+.menu-btn.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-btn.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
 }
 @media only screen and (max-width: 1100px){
     .app__nav-left ul {
@@ -116,7 +203,7 @@
         width: 102px;
         height: 48px;
     }
-    .hmb {
+    .menu-btn {
         display: flex;
     }
     .app__nav-mobile {

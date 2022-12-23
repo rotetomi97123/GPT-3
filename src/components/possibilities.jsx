@@ -4,7 +4,7 @@ import { possibility } from '../assets'
 
 const possibilities = () => {
   return (
-    <div className='app__possi-container'>
+    <div className='app__possi-container' id='studies'>
         <div className='app__possi-container-box'>
           <div className='app__possi-container-box-img'>
               <img src={possibility} alt="possibilty"/> 
