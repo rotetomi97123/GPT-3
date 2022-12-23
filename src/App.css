@@ -61,10 +61,10 @@
     background:radial-gradient(circle at 47% 47%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 59%);
 
 }
-.hide {
+/* .hide {
   opacity: 0;
   transition: all 1s;
 }
 .show {
   opacity: 1;
-}
+} */
